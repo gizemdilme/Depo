@@ -1,0 +1,98 @@
+﻿@model Depo.Models.Kullanici
+@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #1d3557, #343a40);
+        color: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .register-container {
+        margin-top: 80px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+
+    .form-control {
+        background-color: #2c3e50;
+        border: 1px solid #495057;
+        color: #fff;
+    }
+
+        .form-control::placeholder {
+            color: #adb5bd;
+        }
+
+        .form-control:focus {
+            background-color: #34495e;
+            border-color: #28a745;
+            box-shadow: 0 0 5px #28a745;
+            color: #fff;
+        }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+
+    .alert-danger {
+        background-color: #c82333;
+        color: white;
+        border: none;
+    }
+
+    a {
+        color: #17a2b8;
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container">
+    <div class="register-container mx-auto w-50">
+        <h2 class="text-center mb-4">Kayıt Ol</h2>
+
+        @if (ViewData["Hata"] != null)
+        {
+            <div class="alert alert-danger">@ViewData["Hata"]</div>
+        }
+
+        <form asp-action="Register" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="Mail"></label>
+                <input asp-for="Mail" class="form-control" placeholder="E-posta adresiniz" />
+                <span asp-validation-for="Mail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Sifre"></label>
+                <input asp-for="Sifre" type="password" class="form-control" placeholder="Şifreniz" />
+                <span asp-validation-for="Sifre" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success w-100">Kayıt Ol</button>
+
+            <div class="mt-3 text-center">
+                <a asp-action="Login">Zaten hesabınız var mı? Giriş Yap</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

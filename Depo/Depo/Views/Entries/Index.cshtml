@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Depo.Models.Entry>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Girişler</h1>
+
+<p>
+    <a asp-action="Create">Yeni Kayıt</a>
+</p>
+<table class="table">
+    <table class="table table-bordered table-
+striped" id="tbllist">
+    <thead>
+        <tr>
+            <th>
+                Kumaş
+            </th>
+            <th>
+                Giriş Tarihi
+            </th>
+            <th>
+                Miktar
+            </th>
+            <th>
+                Konum
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fabric.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location.Section)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.EntryId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.EntryId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.EntryId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,134 @@
+﻿@model Depo.Models.Logincs
+@{
+    ViewData["Title"] = "Login";
+}
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        overflow-x: hidden;
+        overflow-y: auto;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #1d3557, #457b9d);
+    }
+
+    .background-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('/Images/login2.jpg') no-repeat center center fixed;
+        background-size: cover;
+        filter: brightness(0.7);
+        z-index: -1;
+    }
+
+    .login-container {
+        margin: 80px auto;
+        background-color: rgba(0, 0, 0, 0.75);
+        color: white;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+        max-width: 400px;
+        width: 90%;
+        animation: fadeSlide 1s ease-out forwards;
+    }
+
+    @@keyframes fadeSlide {
+        from { transform: translateY(-50px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid #ccc;
+        color: white;
+    }
+
+    .form-control::placeholder {
+        color: #ccc;
+    }
+
+    .form-control:focus {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: #28a745;
+        box-shadow: 0 0 5px #28a745;
+        color: white;
+    }
+
+    .login-button, .register-button {
+        border: none;
+        border-radius: 25px;
+        padding: 12px 20px;
+        width: 100%;
+        margin-top: 15px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .login-button {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .login-button:hover {
+        background-color: #218838;
+        transform: scale(1.05);
+    }
+
+    .register-button {
+        background-color: #6c757d;
+        color: white;
+    }
+
+    .register-button:hover {
+        background-color: #5a6268;
+        transform: scale(1.05);
+    }
+
+    .logged-status {
+        color: #ff6b6b;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="background-container"></div>
+
+<div class="login-container">
+    <h2 class="text-center mb-3">Giriş Yap</h2>
+    <hr style="border-color: rgba(255, 255, 255, 0.3);" />
+
+    <form asp-action="Login" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+        <div class="form-group mb-3">
+            <input asp-for="Mail" class="form-control" placeholder="E-posta adresiniz" />
+            <span asp-validation-for="Mail" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <input asp-for="Sifre" class="form-control" type="password" placeholder="Şifreniz" />
+            <span asp-validation-for="Sifre" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="login-button">Giriş Yap</button>
+
+        @if (ViewData["OnayMesaji"] != null)
+        {
+            <div class="logged-status">@ViewData["OnayMesaji"]</div>
+        }
+    </form>
+
+    <form asp-action="Register" method="get">
+        <button type="submit" class="register-button">Hesabınız yok mu? Kayıt Ol</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

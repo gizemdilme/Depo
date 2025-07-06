@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Depo.Models.Quality>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Kalite</h1>
+
+<p>
+    <a asp-action="Create">Yeni Kayıt</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Kalite ID
+            </th>
+            <th>
+                Kalite 
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QualityId)
+
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QualityName)
+
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.QualityId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.QualityId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.QualityId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|c:\\users\\beyaz\\desktop\\source\\repos\\depo\\depo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\fabrics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\fabrics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\startp\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\startp\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\controllers\\startpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\controllers\\startpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\startp\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\startp\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\colors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\colors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\colors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\colors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\colors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\colors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\colors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\colors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\models\\fabric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\models\\fabric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\models\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\models\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\controllers\\fabricscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\controllers\\fabricscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\controllers\\fabricexitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\controllers\\fabricexitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\controllers\\entriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\controllers\\entriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\controllers\\colorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\controllers\\colorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\qualities\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\qualities\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\models\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\depo\\views\\kullanicis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8E83E897-D828-4165-A2EC-6E333A705941}|Depo\\Depo.csproj|solutionrelative:depo\\views\\kullanicis\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Fabrics\\Index.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Fabrics\\Index.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Fabrics\\Index.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Fabrics\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T02:08:54.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Kullanici.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\Kullanici.cs",
+              "RelativeDocumentMoniker": "Depo\\Models\\Kullanici.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\Kullanici.cs",
+              "RelativeToolTip": "Depo\\Models\\Kullanici.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T01:57:01.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Startp\\Register.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Startp\\Register.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Startp\\Register.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Startp\\Register.cshtml",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T01:56:40.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Colors\\Create.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Colors\\Create.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Colors\\Create.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Colors\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T01:46:51.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Startp\\Login.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Startp\\Login.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Startp\\Login.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Startp\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAjwCgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:14:52.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAGYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:36:21.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T18:14:04.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartpController.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\StartpController.cs",
+              "RelativeDocumentMoniker": "Depo\\Controllers\\StartpController.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\StartpController.cs",
+              "RelativeToolTip": "Depo\\Controllers\\StartpController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:14:41.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Program.cs",
+              "RelativeDocumentMoniker": "Depo\\Program.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Program.cs",
+              "RelativeToolTip": "Depo\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:13:42.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\Color.cs",
+              "RelativeDocumentMoniker": "Depo\\Models\\Color.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\Color.cs",
+              "RelativeToolTip": "Depo\\Models\\Color.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:11:00.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Fabric.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\Fabric.cs",
+              "RelativeDocumentMoniker": "Depo\\Models\\Fabric.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\Fabric.cs",
+              "RelativeToolTip": "Depo\\Models\\Fabric.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:11:02.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Depo\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Depo\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:11:03.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Colors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Colors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Colors\\Index.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Colors\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T08:11:06.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Colors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Colors\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Colors\\Edit.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Colors\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T08:11:08.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Colors\\Details.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Colors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Colors\\Details.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Colors\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T08:11:09.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FabricsController.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\FabricsController.cs",
+              "RelativeDocumentMoniker": "Depo\\Controllers\\FabricsController.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\FabricsController.cs",
+              "RelativeToolTip": "Depo\\Controllers\\FabricsController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:10:53.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FabricExitsController.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\FabricExitsController.cs",
+              "RelativeDocumentMoniker": "Depo\\Controllers\\FabricExitsController.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\FabricExitsController.cs",
+              "RelativeToolTip": "Depo\\Controllers\\FabricExitsController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:10:46.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EntriesController.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\EntriesController.cs",
+              "RelativeDocumentMoniker": "Depo\\Controllers\\EntriesController.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\EntriesController.cs",
+              "RelativeToolTip": "Depo\\Controllers\\EntriesController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:10:36.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ColorsController.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\ColorsController.cs",
+              "RelativeDocumentMoniker": "Depo\\Controllers\\ColorsController.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Controllers\\ColorsController.cs",
+              "RelativeToolTip": "Depo\\Controllers\\ColorsController.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:10:30.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Qualities\\Index.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Qualities\\Index.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Qualities\\Index.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Qualities\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:40:14.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Kullanicis\\Index.cshtml",
+              "RelativeDocumentMoniker": "Depo\\Views\\Kullanicis\\Index.cshtml",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Views\\Kullanicis\\Index.cshtml",
+              "RelativeToolTip": "Depo\\Views\\Kullanicis\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-25T14:36:11.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\DbContext.cs",
+              "RelativeDocumentMoniker": "Depo\\Models\\DbContext.cs",
+              "ToolTip": "C:\\Users\\beyaz\\Desktop\\source\\repos\\Depo\\Depo\\Models\\DbContext.cs",
+              "RelativeToolTip": "Depo\\Models\\DbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:15:25.374Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

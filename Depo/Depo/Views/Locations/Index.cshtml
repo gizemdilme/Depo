@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Depo.Models.Location>
+
+@{
+    ViewData["Title"] = "Lokasyon";
+}
+
+<h1>Depo Lokasyon</h1>
+
+<p>
+    <a asp-action="Create">Yeni Kayıt</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Bölüm
+            </th>
+            <th>
+                Adres
+            </th>
+            <th>
+                Kapasite
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Section)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Capacity)
+            </td>
+            <td>
+                    <a class="btn btn-primary"  asp-action="Edit" asp-route-id="@item.LocationId">Edit</a> |
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.LocationId">Details</a> |
+                    <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.LocationId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

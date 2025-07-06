@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "MENSCUAT";
+}
+
+<div class="hero-section d-flex flex-column align-items-center justify-content-center text-center">
+    <h1 class="animated-title">GİZEM MENSCUAT</h1>
+    <p class="animated-subtitle">Kalitenin Adresi • Yenilikçi • Güvenilir</p>
+    <a href="@Url.Action("Index", "Fabrics")" class="btn btn-outline-light mt-3 animate-button">Koleksiyonumuzu Keşfet</a>
+</div>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #1d3557, #457b9d, #1d3557);
+        color: white;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .hero-section {
+        height: 100vh;
+        padding: 0 20px;
+        background: rgba(0, 0, 0, 0.3);
+        position: relative;
+        z-index: 1;
+        animation: fadeIn 2s ease-out forwards;
+    }
+
+    .hero-section::before {
+        content: "";
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: 0;
+    }
+
+    .animated-title {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        animation: slideDown 1s ease-out forwards;
+        z-index: 1;
+    }
+
+    .animated-subtitle {
+        font-size: 1.5rem;
+        opacity: 0;
+        animation: fadeInText 2s ease-out 1s forwards;
+        z-index: 1;
+    }
+
+    .animate-button {
+        opacity: 0;
+        animation: fadeInText 2s ease-out 2s forwards;
+        z-index: 1;
+        border-radius: 25px;
+        padding: 10px 25px;
+        transition: all 0.3s ease;
+    }
+
+    .animate-button:hover {
+        background-color: white;
+        color: #1d3557;
+        transform: scale(1.05);
+    }
+
+    /* Animasyonlar */
+    @@keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    @@keyframes slideDown {
+        from { transform: translateY(-50px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+
+    @@keyframes fadeInText {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    /* Mobil Uyumluluk */
+    @@media (max-width: 768px) {
+        .animated-title {
+            font-size: 2rem;
+        }
+        .animated-subtitle {
+            font-size: 1rem;
+        }
+    }
+</style>
